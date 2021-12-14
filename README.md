@@ -13,8 +13,13 @@ Follow the steps below:
 ## Install
 packege.json: 
 ```
- "fdss": "dfdsf"
+    "devDependencies": {
+        ...
+         "react-spa-prerender": "https://github.com/unschooler-me/react-spa-prenderer.git"
+        ...
+    }
 ```
+yarn install
 
 ## Add as postbuild script
 In your package.json add the following in the scripts section:
@@ -80,7 +85,7 @@ That's it. After accomplishing all the steps above, run you build command and yo
 | port | Number | 3000 | port where prerendering server will be starting |
 | buildDirectory | String | './build' | a relative path to your build folder
 |engine | Object | {} | params for Puppeteer engine, list of available params described below
-| delay | Number | 0  | Timeout for load page
+| delay | Number | 0  | Timeout load page
 
 
 ### Engine options:
