@@ -1,7 +1,10 @@
 # react-spa-prerender
 
 ## Warning!
-react-spa-prerender processes only page with flag page-loaded(<div id="page-loaded" />)
+react-spa-prerender processes only page with flag page-loaded
+```
+<div id="page-loaded" />
+```
 
 ## Install
 packege.json: 
